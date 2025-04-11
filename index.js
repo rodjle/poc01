@@ -35,6 +35,7 @@ app.post('/login', (req, res) => {
       <h2>Login realizado com sucesso!</h2>
       <p><strong>Usuário:</strong> ${usuario}</p>
       <p><strong>Senha:</strong> ${senha}</p>
+      <p><strong>Senha:</strong> NAO FAZER ASSIM</p>
     </div>
   `);
 });
